@@ -9,9 +9,9 @@ Very usefull to troubleshooting connection issues or to configure environments b
 
 To publish to a linux target :
 ```
-dotnet publish -r linux-x64 -p:PublishSingleFile=true 
+dotnet publish -c Release -r linux-x64 -p:PublishSingleFile=true 
 ```
 To publish to a windows target :
 ```
-dotnet publish -r win10-x64 -p:PublishSingleFile=true
+dotnet publish -c Release -r win10-x64 -p:PublishSingleFile=true
 ```
