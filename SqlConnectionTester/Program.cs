@@ -10,7 +10,7 @@ namespace AzureSqlConnectionTester
             bool again = true;
             while(again)
             {
-                Console.WriteLine("Enter the Azure SQL connexion string you want to test :");
+                Console.WriteLine("Enter the SQL connexion string you want to test :");
                 string connetionString = Console.ReadLine();
                 using (var connexion = new SqlConnection(connetionString))
                 {
